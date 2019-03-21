@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900');
+/*Avenir font toevoegen?*/
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.container{
+width: 95%;
+margin: 0 auto;
+}
+
+.title{
+  font-size: 2.5rem;
+}
+
+header{
+  margin-top: 10%;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a{
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .5rem;
+  padding: .65em;
+  color: #000000;
+}
+
+.home {
+  background-image: url(portfolio_Anouk_Melis/links/IJsland_01.jpg);
+  padding: 10em 0;
+}
